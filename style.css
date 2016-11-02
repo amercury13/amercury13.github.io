@@ -1,0 +1,544 @@
+.body {
+	padding: 0 auto ;
+	margin: 0 auto ;
+}
+
+.wrapper {
+	width: 1088px;
+	padding: 0 auto;
+	margin: 0 auto;
+}
+
+.wrapper-gallery {
+	width: 100%;
+	padding: 0 auto;
+	margin: 0 auto;
+}
+
+.wrapper-second {
+	width: 952px;
+	padding: 0 auto;
+	margin: 0 auto;
+}
+
+.wrapper-third {
+	width: 680px;
+	padding: 0 auto;
+	margin: 0 auto;
+}
+
+.wrapper5 {
+	width: 680px;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+.nav ul{
+	list-style: none;
+	background-color: #202326;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	width: 100%;
+	box-shadow: 0 2px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.nav ul a {
+	font-family: 'gotham', sans-serif;
+}
+
+.nav li {
+	transition: all 0.3s ease-in;
+}
+.nav ul li {
+	display: inline-block;
+	float: right;
+}
+
+.nav ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 15px 40px;
+	display: block;
+	transition: all .1s ease;
+	font-style: 'gotham', sans-serif;
+}
+
+.nav ul li a:hover{
+	background-color: #34383D;
+	border-bottom: solid;
+}
+
+
+.active {
+	background-color: #34383D;
+	border-bottom: solid;
+}
+
+.nav li li {
+	width: 100%;
+}
+
+.nav ul ul {
+	display: block;
+	position: absolute;
+	width: 140px;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity .3s ease;
+}
+
+.nav ul ul li {
+	text-align: center;
+	width: 100%;
+	float: none;
+	clear: both;
+}
+.nav ul li:hover>ul {
+	visibility: visible;
+	opacity: 1;
+}
+
+.clear {
+	clear:both;
+}
+
+.jumbotron {
+	background-image: url('assets/img/header.jpg');
+	background-repeat: no-repeat;
+ 	background-size: cover;
+	width: 100%;
+	height: 120vh;
+	margin: 0;
+	padding: 0;
+}
+
+.jumbotron2 {
+	background-image: url('assets/img/banner.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 500px;
+	margin: 0;
+	padding:  0;
+}
+
+.jumbotron3 {
+	background-image: url('assets/img/banner2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 500px;
+	margin: 0;
+	padding:  0;
+}
+
+.jumbotron5 {
+	background-image: url('assets/img/header.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 500px;
+	margin: 0;
+	padding:  0;
+}
+
+.jumbotron4 {
+	background-image: url('assets/img/contact.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 500px;
+	margin: 0;
+	padding:  0;
+}
+
+.about-a {
+	background-color: #fff;
+	width: 100%;
+	height: 400px;
+	margin: 0;
+	padding: 0;
+}
+
+.about-b {
+	background-color: #fff;
+	width: 100%;
+	height: 500px;
+	margin: 0;
+	padding: 0;
+}
+
+.about-c {
+	background-color: #6eb5c9;
+	width: 100%;
+	height: 600px;
+	margin: 0;
+	padding: 0;
+}
+
+.about-d {
+	background-color: #f3f3f3;
+	width: 100%;
+	height: 500px;
+	margin: 0;
+	padding: 0;
+}
+
+.announ {
+	background-color: #fff;
+	width: 100%;
+	height: 220px;
+	margin: 0;
+	padding: 0;
+}
+
+.announ2 {
+	background-color: white;
+	width: 100%;
+	height: 260px;
+	margin: 0;
+	padding: 0;
+}
+
+.about {
+	background-color: white;
+	width: 100%;
+	height: 660px;
+	margin: 0;
+	padding: 0;
+}
+
+.gallery {
+	width: 100%;
+	height: 240px;
+	margin: 0;
+	padding: 0;
+}
+
+.btnred {
+	background-color: transparent;
+	height: 45px;
+	width: 160px;
+  	color: white;
+ 	padding: 10px 10px;
+ 	text-align: center;
+ 	font-size: 14px;
+ 	border: solid;
+ 	border-color: white;
+ 	border-width: 2px;
+	font-family: 'gotham', sans-serif;
+	transition-duration: .4s;
+    cursor: pointer;
+}
+
+.btndark {
+	background-color: transparent;
+	height: 45px;
+	width: 160px;
+  	color: #282629;
+ 	padding: 10px 10px;
+ 	text-align: center;
+ 	font-size: 14px;
+ 	border: solid;
+ 	border-color: #282629;
+ 	border-width: 2px;
+	font-family: 'gotham', sans-serif;
+	transition-duration: .4s;
+    cursor: pointer;
+}
+
+.btndark:hover {
+	background-color: #282629;
+	color: white;
+	transition-duration: .4s;
+}
+
+.btnred:hover {
+	background-color: white;
+	color: #333333;
+	transition-duration: .4s;
+}
+
+
+.forblack {
+	color: #333333;
+	font-family: 'gotham', sans-serif;
+}
+
+.forblack2 {
+	color: #757575;
+	font-family: 'gotham', sans-serif;
+}
+
+.forblack3 {
+	color: #333333;
+	font-family: 'gotham', sans-serif;
+}
+
+.col-left-3 {
+	width: 33.33%;
+	float: left;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.col-left-3-2 {
+	width: 33.33%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.col-left {
+	width: 50%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.col-4 {
+	width: 25%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.col-footer1 {
+	width: 40%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.col-footer2 {
+	width: 60%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.col-5 {
+	width: 40%;
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+@font-face {
+	font-family: 'Proxbold';
+	src: url("assets/fonts/proxbold.otf") format("opentype");
+}
+
+@font-face {
+	font-family: 'proxfont';
+	src: url("assets/fonts/proxreg.otf") format("opentype");
+}
+
+@font-face {
+	font-family: 'open';
+	src: url("assets/fonts/open.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: 'gotham';
+	src: url("assets/fonts/gotham.otf") format("opentype");
+}
+.navfont {
+	font-style: 'gotham', sans-serif;
+}
+.gotham5 {
+	font-family: 'gotham', sans-serif;
+	font-size: 40px;
+	color: #333333;
+}
+
+.gotham6 {
+	font-family: 'gotham', sans-serif;
+	font-size: 40px;
+	color: white;
+}
+
+.gotham7 {
+	font-family: 'gotham', sans-serif;
+	font-size: 20px;
+	color: white;
+}
+
+.gotham2 {
+	font-family: 'gotham', sans-serif;
+	font-size: 20px;
+	color: #333333;
+}
+.gotham {
+	font-family: 'gotham', sans-serif;
+	font-size: 36px;
+	color: #333333;
+}
+
+.gotham3 {
+	font-family: 'gotham', sans-serif;
+	font-size: 36px;
+	color: white;
+}
+
+.gotham4 {
+	font-family: 'gotham', sans-serif;
+	font-size: 30px;
+	color: #333333;
+}
+
+.gotham9 {
+	font-family: 'gotham', sans-serif;
+	font-size: 16px;
+	color: #333333;
+}
+
+.open {
+	font-family: 'open', sans-serif;
+	color: white;
+	font-size: 12px;
+	font-weight: 800;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.openft {
+	font-family: 'open', sans-serif;
+	color: #777777;
+	font-size: 12px;
+	font-weight: 800;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.proxbold {
+	font-family: 'Proxbold', sans-serif;
+	font-size: 30px;
+}
+
+.proxreg {
+	font-family: 'proxfont', sans-serif;
+	font-size: 20px;
+}
+
+.quotetext {
+	font-family: 'proxreg', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 28px;
+}
+
+.quotetext2 {
+	font-family: 'proxreg', sans-serif;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	opacity: 0.9;
+}
+.red {
+	color: red;
+}
+
+.font2h{
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
+.form_input {
+	background-color: transparent;
+	border: none;
+	border-color: #333333;
+	border-bottom: 2px solid;
+	font-size: 16px;
+	font-weight: 500;
+	height: 30px;
+	line-height: 24px;
+	margin: 0;
+	padding: 4px 0;
+	position: relative;
+	width: 100%;
+	color: #333333;
+
+}
+
+input{
+	font-family: 'proxreg', sans-serif;
+}
+
+
+.centerform{
+	width: 600px;
+	margin: 0 auto;
+	padding: 0 auto;
+
+}
+
+::selection {
+	background-color: #34495e;
+	color: white;
+}
+
+ul {
+	list-style: none;
+}
+
+li a, a {
+	text-decoration: none;
+}
+
+.library {
+	height: 60px;
+	width: 60px;
+	transition-duration: .6s;
+}
+
+.library:hover {
+	background-color: white;
+	opacity: 0.2;
+}
+
+hr.style {
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.footer {
+	background-color: #303030;
+	width: 100%;
+	height: 300px;
+	margin: 0 auto;
+	padding: 0 auto;
+	font-style: 'gotham', sans-serif;
+	color: #777777;
+}
+
+.footer li {
+	list-style: none;
+}
+
+.footer a {
+	color: #777777;
+	font-size: 16px;
+	font-family: 'gotham', sans-serif;
+}
+
+.footer li a, li p {
+	color: #777777;
+	font-family: 'gotham', sans-serif;
+}
+
+.footer h5 {
+	font-family: 'gotham', sans-serif;
+}
+
+.forcopyright {
+	font-family: 'gotham', sans-serif;
+}
